@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Boombox</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+  <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+  <div class="card" style="width: 23rem;">
+  <div class="card-body">
+    <h5 class="card-title text-header">Boombox</h5>
+    <form action="/result" method="post" enctype="multipart/form-data" id="theform">
+    <div class="round" id="inputthefile">
+  <input type="file" class="form-control mb-3 file-input" name="file" id="file" hidden required>
+  <div id="nanti">
+  <div class="blurple text-center" style="font-size:3rem;">
+ <i class="fas fa-cloud-upload-alt vert-move"></i><br>
+ </div>
+<p class="blurple">Browse File To Upload<br>The file will be public.</p>
+</div>
+</div>
+</form>
+ <button form="theform" type="submit" class="btn btn-primary" onclick="loading()"><i class="fas fa-upload"></i> Upload</button>
+<a href="/all"><button type="submit" class="btn btn-primary">All File</button></a>
+  </div>
+  <div class="d-flex justify-content-center mb-3">
+  <script type="text/javascript">
+	atOptions = {
+		'key' : '2f992d66686992a58d8c7d7dc84e3a50',
+		'format' : 'iframe',
+		'height' : 250,
+		'width' : 300,
+		'params' : {}
+	};
+	document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://www.variousformatscontent.com/2f992d66686992a58d8c7d7dc84e3a50/invoke.js"></scr' + 'ipt>');
+</script>
+  </div>
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>
